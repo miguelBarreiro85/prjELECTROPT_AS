@@ -6,6 +6,38 @@
     <Name>prjELECTROPT_AS.database</Name>
     <FullPath>prjELECTROPT_AS.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>CubeElectroVendas.cube</Name>
+      <FullPath>CubeElectroVendas.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>CubeElectroVendas.partitions</Name>
+          <FullPath>CubeElectroVendas.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>CubeElectroCompras.cube</Name>
+      <FullPath>CubeElectroCompras.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>CubeElectroCompras.partitions</Name>
+          <FullPath>CubeElectroCompras.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>CubeElectroAssistencia.cube</Name>
+      <FullPath>CubeElectroAssistencia.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>CubeElectroAssistencia.partitions</Name>
+          <FullPath>CubeElectroAssistencia.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
   <Dimensions>
     <ProjectItem>
       <Name>Cliente.dim</Name>
